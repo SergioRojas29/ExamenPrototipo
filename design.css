@@ -1,0 +1,269 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.start {
+    background-image: url("PICS/intropic.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.nav {
+    border-color: rgb(207, 179, 16);
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-width: 12px;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+}
+
+.nav img {
+    width: 150px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75px
+}
+
+.margin {
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-style: solid;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.text_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    margin-left: 25px;
+    color: rgb(138, 138, 138);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(185, 136, 185);
+    opacity: 100%;
+    color: white;
+}
+
+.interactions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin: auto;
+    width: 720px;
+    border-color: black;
+    border-style: solid;
+}
+
+.interactions img {
+    width: 30px;
+    height: auto;
+
+}
+
+.interactions img:hover{
+    cursor: pointer;
+}
+
+.iframe_container {
+    margin: 10px;
+}
+
+/*ZONA 1: PERFIL*/
+.perfil {
+    background-color: rgb(207, 179, 16);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.forum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: auto;
+    width: 640px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+
+
+/*ZONA 2 Y 3: HOME - FORO DE CARRERA*/
+.followme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(187, 138, 252);
+    border-color: black;
+    width: 150px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-style: solid;
+    text-align: center;
+}
+
+.followme:active {
+    transform:translateY(2px);
+    box-shadow: 0 0 0;
+    outline: 0;
+}
+
+.title {
+    background-color: rgb(207, 179, 16);
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin: 10px;
+    width: 1380px;
+}
+
+.title img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.profile_images img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile_username {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    color: black;
+}
+
+.forum_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: auto;
+    width: 720px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.forum_text img {
+    width: 450px;
+    height: auto;
+    object-fit: cover;
+}
+
+/*ZONA 4: GUARDADOS*/
+
+.images {
+    color: rgb(0, 0, 0);
+}
+
+.images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 1px;
+    border-radius: 15px;
+}
+
+.twoimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.twoimg img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 1px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/*ZONA 6: FINAL*/
+.whoweare {
+    color: rgb(166, 102, 179);
+    background-color: rgb(252, 255, 97);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+
+}
